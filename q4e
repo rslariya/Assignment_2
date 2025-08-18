@@ -1,17 +1,13 @@
 #include <iostream>
-#include <cctype>
 using namespace std;
 
-int main() {
-    char ch;
-    cout << "Enter an uppercase character: ";
-    cin >> ch;
-
-    if(isupper(ch)) {
-        char lower = tolower(ch);
-        cout << "Lowercase: " << lower << endl;
-    } else {
-        cout << "Character was not uppercase." << endl;
-    }
-    return 0;
+int main()
+{
+	char ch;
+	cout<<"Enter  character in uppercase: "; 
+        cin>>ch;
+	
+	ch=ch+32;
+	cout<<"Entered character in lowercase is: "<<ch;
+	return 0;
 }
