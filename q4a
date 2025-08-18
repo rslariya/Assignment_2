@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string str1, str2;
+    cout << " first string: ";
+    cin >> str1;
+    cout << " second string: ";
+    cin >> str2;
+
+    string concatenated = str1 + str2;
+    cout << "Concatenated string: " << concatenated << endl;
+    return 0;
+}
